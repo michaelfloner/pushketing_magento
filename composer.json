@@ -1,0 +1,13 @@
+{
+  "name": "pushketing",
+  "version": "0.0.1",
+  "type": "magento2-module",
+  "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Pushketing\\": ""
+      }
+  }
+}

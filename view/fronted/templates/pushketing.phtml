@@ -1,0 +1,21 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+var_dump('pushkkk');
+?>
+
+<?php /** @var $block Pushketing\Block\Pushketing */ ?>
+
+<?php
+
+    list($data, $action) = $block->getAction();
+
+    if ( $action == 'checkout_cart_index') {
+        $block->postTag('RemoveFromBasket', $data, 'user');
+    } elseif ($action == 'checkout_onepage_success') {
+        $block->postTag('finalizeOrder', $data, 'user');
+    } elseif ($action == 'catalog_product_view') {
+        $block->postTag('product_view', $data, 'user');
+    }
