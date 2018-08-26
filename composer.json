@@ -1,5 +1,5 @@
 {
-  "name": "pushketing",
+  "name": "pushketing/magento",
   "version": "0.0.1",
   "type": "magento2-module",
   "autoload": {
