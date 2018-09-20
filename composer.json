@@ -1,6 +1,6 @@
 {
   "name": "pushketing/magento",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "magento2-module",
   "autoload": {
       "files": [
