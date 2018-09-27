@@ -23,7 +23,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
      */
     const PATH_TOKEN_ID = 'pushketing/general/pushketing_id';
 
-    const END_POINT_URL = 'https://pushketing.online/api/tag';
+    const END_POINT_URL = 'https://www.pushketing.com/api/tag';
 
     protected $push_registry;
 
